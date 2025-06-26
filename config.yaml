@@ -1,0 +1,61 @@
+# Machine Learning Project Configuration
+
+# Data settings
+data:
+  path: "spambase/spambase.csv"
+  features_path: "spambase/features.txt"
+  test_size: 0.25
+  random_state: 42
+
+# Preprocessing settings
+preprocessing:
+  default_transformation: "standard"  # minmax, standard, normalize, none
+  default_feature_selection: "none"   # variance, chi2, mutual_info, none
+  default_balancing: "none"           # smote, random_under, none
+  feature_selection_k: 28
+  correlation_threshold: 0.80
+
+# Model training settings
+training:
+  n_jobs: -1
+  cv_folds: 5
+  random_state: 42
+  
+  # KNN settings
+  knn:
+    n_iter: 50
+    max_neighbors: 30
+    
+  # Decision Tree settings
+  decision_tree:
+    n_iter: 30
+    max_depth: 20
+    
+  # Random Forest settings
+  random_forest:
+    n_iter: 20
+    n_estimators_options: [50, 100, 200, 300]
+    
+  # Naive Bayes settings
+  naive_bayes:
+    n_iter: 20
+    var_smoothing_range: [1e-10, 1e-8]
+    
+  # Ensemble settings
+  ensemble:
+    n_iter: 15
+    voting_methods: ['hard', 'soft']
+    base_models: ['knn', 'decision_tree', 'random_forest', 'naive_bayes']
+
+# Caching settings
+cache:
+  enabled: true
+  cache_dir: "cache"
+  max_cache_size: 1000  # MB
+
+# Output settings
+output:
+  save_models: true
+  models_dir: "models"
+  results_dir: "results"
+  verbose: true 
