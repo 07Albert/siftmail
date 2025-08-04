@@ -32,7 +32,7 @@ siftmail/
 ├── Results/                  # Model evaluation results
 └── README.md                    # This file
 ```
-
+Please download the datasets from: https://drive.google.com/drive/folders/1SHUE30Y7IdPTI_IVYadPiSF-fvaPByAp?usp=drive_link
 ## 🚀 Quick Start
 
 ### Prerequisites
