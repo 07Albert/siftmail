@@ -37,14 +37,7 @@ Please download the datasets from: https://drive.google.com/drive/folders/1SHUE3
 
 ### Prerequisites
 
-```bash
-# Required Python packages
-pip install tensorflow>=2.16.0
-pip install pandas numpy matplotlib seaborn
-pip install scikit-learn nltk gensim
-pip install plotly wordcloud
-pip install tqdm
-```
+pip install -r requirements.txt
 
 ### Installation
 
