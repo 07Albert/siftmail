@@ -131,7 +131,7 @@ Raw Emails → Preprocessing → Feature Engineering → Embeddings → Clusteri
 - L2 regularization
 - Early stopping and learning rate scheduling
 
-## 📊 Dataset Information
+##  Dataset Information
 
 ### Email Categories
 
@@ -159,7 +159,7 @@ The system classifies emails into the following categories:
 - **Sequence Length**: 250 tokens
 - **Vocabulary Size**: 50,000 words
 
-## 🎯 Model Performance
+##  Model Performance
 
 ### LSTM Model Results
 
@@ -175,7 +175,7 @@ The system classifies emails into the following categories:
 - **Early Stopping**: Optimizes training duration
 - **Learning Rate Scheduling**: Improves convergence
 
-## 🔧 Configuration
+##  Configuration
 
 ### Model Parameters
 
@@ -197,7 +197,7 @@ class Config:
     L2_REGULARIZATION = 0.01
 ```
 
-## 📈 Usage Examples
+## Usage Examples
 
 ### Training a New Model
 
