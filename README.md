@@ -295,5 +295,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-Albert Hong
+Albert Hong, Braulio Matos and Derick Xu
 
