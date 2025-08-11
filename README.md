@@ -34,6 +34,7 @@ siftmail/
 ```
 Please download the datasets from: https://drive.google.com/drive/folders/1SHUE30Y7IdPTI_IVYadPiSF-fvaPByAp?usp=sharing
 To run, you will only need emails.csv and labeling.csv, the rest will be generated in the notebook. However it is up for download.
+Please place the GoogleNews-vectors... into /Models folder 
 emails.csv : original dataset 
 labeling.csv: labels 
 master_dataset: combines preprocessed dataset and labels 
