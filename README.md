@@ -36,7 +36,7 @@ Please download the datasets from: https://drive.google.com/drive/folders/1SHUE3
 ## 🚀 Quick Start
 
 ### Prerequisites
-
+run in windows ubuntu 
 pip install -r requirements.txt
 
 ### Installation
